@@ -117,6 +117,7 @@ bar {
 	exec_always killall nm-applet || nm-applet
 	exec_always killall blueman-applet || blueman-applet
 	exec_always xset r rate 150 255
+	exec_always xset -dpms
 	exec_always setxkbmap br
 	exec_always . ~/.fehbg
 	exec_always redshift -P -O 4000 -g 1.2:1.2:1.2
